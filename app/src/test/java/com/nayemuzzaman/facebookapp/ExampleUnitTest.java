@@ -1,4 +1,4 @@
-package com.nayemuzzaman.academicresearch;
+package com.nayemuzzaman.facebookapp;
 
 import org.junit.Test;
 

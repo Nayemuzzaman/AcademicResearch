@@ -1,4 +1,4 @@
-package com.nayemuzzaman.academicresearch;
+package com.nayemuzzaman.facebookapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.nayemuzzaman.academicresearch", appContext.getPackageName());
+        assertEquals("com.nayemuzzaman.facebookapp", appContext.getPackageName());
     }
 }

@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">AcademicResearch</string>
-    <string name="facebook_app_id">2162130994017487</string>
-    <string name="fb_login_protocol_scheme">fb2162130994017487</string>
+    <string name="app_name">Academic Research</string>
 </resources>

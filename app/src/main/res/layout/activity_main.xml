@@ -1,55 +1,42 @@
-<LinearLayout android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:background="#f0f0f0">
 
-    <TextView
-        android:text="Hello:"
+    <!-- Login Button -->
+    <Button android:id="@+id/login_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:textSize="20dp"
-        android:layout_gravity="center_horizontal"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/nameAndSurname"
-        android:textSize="22dp"
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center_horizontal"/>
-
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:id="@+id/profileImage"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center_horizontal"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/share"
+        android:layout_marginTop="20dip"
         android:layout_gravity="center_horizontal"
-        android:onClick="onClick"
-        android:text="Share Content" />
+        android:text="Login"/>
 
-    <Button
+    <!-- Post to Wall Button -->
+    <Button android:id="@+id/wall_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/getPosts"
+        android:text="Post to Wall"
+        android:layout_marginTop="20dip"
         android:layout_gravity="center_horizontal"
-        android:onClick="onClick"
-        android:text="Posts"/>
+        android:visibility="gone"/>
 
-
-    <Button
+    <!-- My Profile Button -->
+    <Button android:id="@+id/profile_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="My Profile Data"
+        android:layout_marginTop="20dip"
         android:layout_gravity="center_horizontal"
-        android:onClick="onClick"
-        android:text="Logout"
-        android:id="@+id/logout"/>
+        android:visibility="gone"/>
+    <!-- My Friend Button -->
+    <Button android:id="@+id/friend_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number Of Friends"
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
 
 </LinearLayout>

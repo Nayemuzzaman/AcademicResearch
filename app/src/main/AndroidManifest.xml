@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nayemuzzaman.academicresearch">
+    package="com.nayemuzzaman.facebookapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk android:minSdkVersion="8" />
 
     <application
-        android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:label="@string/app_name" >
         <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:screenOrientation="portrait">
-            <intent-filter>
+            android:label="@string/app_name"
+            android:name="com.nayemuzzaman.facebookapp.MainActivity" >
+            <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
 
-                <data android:scheme="@string/fb_login_protocol_scheme" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
-                <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
-
-        <activity android:name=".LoginActivity"></activity>
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
 </manifest>
+

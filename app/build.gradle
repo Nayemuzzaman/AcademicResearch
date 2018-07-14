@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "27.0.3"
     defaultConfig {
-        applicationId "com.nayemuzzaman.academicresearch"
+        applicationId "com.nayemuzzaman.facebookapp"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
@@ -25,7 +25,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
-    compile 'com.facebook.android:facebook-android-sdk:4.18.0'
+    compile 'com.github.asne.facebook:facebook:3.17.2'
 
     testCompile 'junit:junit:4.12'
 }
